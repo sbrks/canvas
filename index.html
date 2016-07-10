@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Canvas App</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body style="margin: 0">
+	<!--default canvas display is display inline, change to display block to get rid of scroll bars, remove any margins, so canvase takes up full screen -->
+		<div id="toolbar">
+			<div id="rad">
+				Radius <span id="radval">10</span>
+				<div id="decrad" class="radcontrol"> - </div>
+				<div id="incrad" class="radcontrol"> + </div>
+			</div>
+
+			<div id="clear">
+				<button id="clearbutton">Clear</button>
+			</div>
+
+			<div id="colors">
+	<!-- 			<div class="swatch active" style="background-color: red"></div>
+				<div class="swatch" style="background-color: green"></div>
+				<div class="swatch" style="background-color: blue"></div> -->
+			</div>
+		</div>
+
+		<canvas id="canvas" style="display: block"> Sorry, your browser does not support Canvas
+		</canvas>
+
+
+
+
+		<script src="main.js"></script>
+		<script src="radius.js"></script>
+		<script src="colors.js"></script>
+	</body>
+</html>
