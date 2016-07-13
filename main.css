@@ -9,28 +9,42 @@
 	-ms-user-select: none;
 }
 
+#canvas {
+/*	border: 2px solid red;
+	position: relative;*/
+}
+
+
 #toolbar {
 	width: 100%;
 	height: 50px;
 	padding: 10px;
-	position: fixed;
+	position: relative;
 	top: 0;
-	background-color: #3f2f2f;
+	background-color: #B90045;
 	color: white;
 
 }
 
+
 .radcontrol {
 	width: 30px;
 	height: 30px;
-	background-color: #4f4f4f;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: #2461F2;
 	display: inline-block;
 	text-align: center;
 	padding: 5px;
+	margin-left:10px;
 }
 
 #rad {
 	float: left;
+}
+
+#radval {
+	font-size: 20px;
 }
 
 #colors {
@@ -50,4 +64,26 @@
 	border: 2px solid white;
 /*	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
 */
+}
+
+#buttons {
+	float: center;
+	display: inline-block;
+	padding-left: 30px;
+	height: 10px;
+	width: 60px;
+	padding-bottom: 10px;
+	padding-top:4px;
+
+}
+
+#buttons h3 {
+	color: white;
+}
+
+#clear {
+	height: 25px;
+	width: 50px;
+	background-color: #2461F2;
+	color: white;
 }
